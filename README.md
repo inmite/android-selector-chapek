@@ -40,15 +40,15 @@ In order of plugin to work, resources need to be appropriately named. The plugin
 | _windowfocused   		| state_window_focused 	|
 
 
-### Wishlist
+## Wishlist
 
  - UI which will tell you which selectors will be generated
  - possibility to change naming mapping
 
 _Pull requests are welcomed!_
 
-### Why 'Chapek'?
+## Why 'Chapek'?
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/b/bd/Karel-capek.jpg" width="60"  align="right"/>
 
-[Karel Čapek](http://en.wikipedia.org/wiki/Karel_%C4%8Capek) was a famous Czech writer, inventor of the word 'robot'. The word comes from Czech word 'robota', which means 'manual hard labor'. As with Čapek's robots, this plugin will remove your unnecessary manual labor. 
+[Karel Čapek](http://en.wikipedia.org/wiki/Karel_%C4%8Capek) was a famous Czech writer, inventor of the word 'robot'. The word comes from Czech word 'robota', which means 'hard manual labor'. As with Čapek's robots, this plugin will remove your unnecessary manual labor. 
