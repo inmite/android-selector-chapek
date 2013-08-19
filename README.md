@@ -11,15 +11,15 @@ This Android Studio plugin automatically generates drawable selectors from appro
 
 1) Right-click folder with your resources e.g 'drawable-xhdpi'
 
- ![](https://bitbucket.org/inmite/android-autoselectors/raw/master/img/select_folder.png)
+ ![](img/select_folder.png)
 
 2) Select 'Generate Android Selectors'
 
- ![](https://bitbucket.org/inmite/android-autoselectors/raw/master/img/select_option.png)
+ ![](img/select_option.png)
 
 3) All selectors _automagically_ appear in the 'drawable' folder!
 
- ![](https://bitbucket.org/inmite/android-autoselectors/raw/master/img/selectors_generated.png)
+ ![](img/selectors_generated.png)
 
 ## Naming convention:
 In order of plugin to work, resources need to be appropriately named. The plugin supports png or nine-patch files with certain suffices anywhere in the file name. You can also combine any suffixes together.
@@ -49,6 +49,6 @@ _Pull requests are welcomed!_
 
 ### Why 'Chapek'?
 
-<p align="right"><img src="http://upload.wikimedia.org/wikipedia/commons/b/bd/Karel-capek.jpg" width="50" /></p>
+<img src="http://upload.wikimedia.org/wikipedia/commons/b/bd/Karel-capek.jpg" width="60"  align="right"/>
 
 [Karel Čapek](http://en.wikipedia.org/wiki/Karel_%C4%8Capek) was a famous Czech writer, inventor of the word 'robot'. The word comes from Czech word 'robota', which means 'manual hard labor'. As with Čapek's robots, this plugin will remove your unnecessary manual labor. 
