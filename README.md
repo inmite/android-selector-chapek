@@ -1,6 +1,6 @@
 # SelectorChapek for Android
 
-This Android Studio automatically generates drawable selectors from appropriately named Android resources.
+This Android Studio plugin automatically generates drawable selectors from appropriately named Android resources.
 
 ## How to install it:
 
@@ -49,6 +49,6 @@ _Pull requests are welcomed!_
 
 ### Why 'Chapek'?
 
-<div style="float: right"><img src="http://upload.wikimedia.org/wikipedia/commons/b/bd/Karel-capek.jpg" width="30" /></div>
+<p align="right"><img src="http://upload.wikimedia.org/wikipedia/commons/b/bd/Karel-capek.jpg" width="50" /></p>
 
 [Karel Čapek](http://en.wikipedia.org/wiki/Karel_%C4%8Capek) was a famous Czech writer, inventor of the word 'robot'. The word comes from Czech word 'robota', which means 'manual hard labor'. As with Čapek's robots, this plugin will remove your unnecessary manual labor. 
