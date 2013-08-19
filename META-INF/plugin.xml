@@ -1,0 +1,45 @@
+<idea-plugin version="2">
+	<id>eu.inmite.android.plugin.selectorchapek</id>
+	<name>SelectorChapek for Android</name>
+	<version>1.0</version>
+	<vendor email="android@inmite.eu" url="http://www.inmite.eu">Inmite</vendor>
+
+	<description><![CDATA[
+      This plugin automatically generates drawable selectors from appropriately named Android resources.
+      ]]></description>
+
+	<change-notes><![CDATA[
+      Initial release
+      ]]>
+	</change-notes>
+
+	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+	<idea-version since-build="107.105"/>
+
+	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+		   on how to target different products -->
+	<!-- uncomment to enable plugin in all products
+	  <depends>com.intellij.modules.lang</depends>
+	  -->
+
+	<application-components>
+		<!-- Add your application components here -->
+	</application-components>
+
+	<project-components>
+		<!-- Add your project components here -->
+	</project-components>
+
+	<actions>
+		<!-- Add your actions here -->
+		<action id="android-selector-chapek" class="SelectorChapekAction" text="Generate Android Selectors"
+			description="Automatically generates drawable selectors from appropriately named resources">
+			<add-to-group group-id="ProjectViewPopupMenu" anchor="after"
+				relative-to-action="ProjectViewPopupMenuRefactoringGroup"/>
+		</action>
+	</actions>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<!-- Add your extensions here -->
+	</extensions>
+</idea-plugin>
