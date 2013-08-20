@@ -33,7 +33,7 @@ In order of plugin to work, resources need to be appropriately named. The plugin
 | --------------------- | --------------------- |  
 | _normal 		   		| (default state)		|
 | _pressed         		| state_pressed			|
-| _focused         		| state_window_focused	|
+| _focused         		| state_focused			|
 | _disabled        		| state_enabled (false) |
 | _checked		   		| state_checked   		|    
 | _selected		   		| state_selected  		|   
