@@ -4,8 +4,11 @@ This Android Studio plugin automatically generates drawable selectors from appro
 
 ## How to install it:
 
- - open 'Preferences-Plugins' in Android Studio
- - click 'Browse repositories' and search for 'SelectorChapek'
+ - open Android Studio and 'Preferences→Plugins→Browse repositories' and search for 'SelectorChapek'
+
+ _or_
+
+ - [download it](http://plugins.jetbrains.com/plugin/7298) and install via 'Install plugin from disk'
 
 ## How to use it:
 
