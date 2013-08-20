@@ -1,7 +1,7 @@
-<idea-plugin version="2">
+<idea-plugin version="2" url="https://github.com/inmite/android-selector-chapek">
 	<id>eu.inmite.android.plugin.selectorchapek</id>
 	<name>SelectorChapek for Android</name>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<vendor email="android@inmite.eu" url="http://www.inmite.eu">Inmite</vendor>
 
 	<description><![CDATA[
@@ -9,8 +9,18 @@
       ]]></description>
 
 	<change-notes><![CDATA[
-      Initial release
-      ]]>
+<html>
+  <b>1.0.1</b> (08/20/2013)
+  <ul>
+    <li>Support for all IntelliJ Platform Products
+  </ul>
+
+  <b>1.0</b> (08/19/2013)
+  <ul>
+    <li>Initial release
+  </ul>
+</html>
+]]>
 	</change-notes>
 
 	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
@@ -18,9 +28,7 @@
 
 	<!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
 		   on how to target different products -->
-	<!-- uncomment to enable plugin in all products
-	  <depends>com.intellij.modules.lang</depends>
-	  -->
+	<depends>com.intellij.modules.lang</depends>
 
 	<application-components>
 		<!-- Add your application components here -->
