@@ -1,7 +1,7 @@
 <idea-plugin version="2" url="https://github.com/inmite/android-selector-chapek">
 	<id>eu.inmite.android.plugin.selectorchapek</id>
 	<name>SelectorChapek for Android</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<vendor email="android@inmite.eu" url="http://www.inmite.eu">Inmite</vendor>
 
 	<description><![CDATA[
@@ -10,6 +10,11 @@
 
 	<change-notes><![CDATA[
 <html>
+  <b>1.0.2</b> (09/03/2013)
+  <ul>
+    <li>Support for all drawable directories
+  </ul>
+
   <b>1.0.1</b> (08/20/2013)
   <ul>
     <li>Support for all IntelliJ Platform Products

@@ -15,6 +15,7 @@
  */
 
 import java.util.HashMap;
+import java.util.regex.Pattern;
 
 /**
  * Constants for various stuff used in whole plugin.
@@ -32,8 +33,7 @@ public class Constants {
 	public static final String ACTIVATED = "_activated";
 	public static final String WINDOW_FOCUSED = "_windowfocused";
 	public static String[] SUFFIXES = new String[]{NORMAL, PRESSED, FOCUSED, SELECTED, CHECKED, DISABLED, HOVERED, CHECKABLE, ACTIVATED, WINDOW_FOCUSED};
-	public static String[] VALID_FOLDERS = new String[]{"drawable-ldpi", "drawable-mdpi", "drawable-hdpi",
-			"drawable-xhdpi", "drawable-xxhdpi", "drawable-xxxhdpi"};
+	public static Pattern VALID_FOLDER_PATTERN = Pattern.compile("^drawable(-[a-zA-Z0-9]+)*$");
 	public static String EXPORT_FOLDER = "drawable";
 	public static HashMap<String, State> sMapping;
 

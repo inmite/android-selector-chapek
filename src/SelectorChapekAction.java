@@ -26,6 +26,8 @@ import com.intellij.openapi.wm.WindowManager;
 import com.intellij.ui.awt.RelativePoint;
 import utils.Log;
 
+import java.util.regex.Matcher;
+
 /**
  * Action which is launched when user clicks the menu item. It handles related UI-stuff.
  *
@@ -56,10 +58,9 @@ public class SelectorChapekAction extends AnAction {
 
 	private boolean isCorrectFolderSelected(VirtualFile selectedFile) {
 		if (selectedFile != null && selectedFile.isDirectory()) {
-			for (String validFolder : Constants.VALID_FOLDERS) {
-				if (selectedFile.getName().contains(validFolder)) {
-					return true;
-				}
+			Matcher matcher = Constants.VALID_FOLDER_PATTERN.matcher(selectedFile.getName());
+			if (matcher.matches()) {
+				return true;
 			}
 		}
 		return false;
