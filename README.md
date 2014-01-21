@@ -55,3 +55,5 @@ _Pull requests are welcomed!_
 <img src="http://upload.wikimedia.org/wikipedia/commons/b/bd/Karel-capek.jpg" width="60"  align="right"/>
 
 [Karel Čapek](http://en.wikipedia.org/wiki/Karel_%C4%8Capek) was a famous Czech writer, inventor of the word 'robot'. The word comes from Czech word 'robota', which means 'hard manual labor'. As with Čapek's robots, this plugin will remove your unnecessary manual labor. 
+
+See [**our other Czech personalities**](http://inmite.github.io) who help with [#AndroidDev](https://plus.google.com/s/%23AndroidDev).
